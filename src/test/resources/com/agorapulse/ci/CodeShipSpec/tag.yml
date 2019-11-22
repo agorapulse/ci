@@ -1,0 +1,18 @@
+CI_COMMIT_MESSAGE: Merge pull request #9 from musketyr/test-pr-21
+CI_MESSAGE: Merge pull request #9 from musketyr/test-pr-21
+CI_COMMIT_ID: a6e4c744e359b16f745e30c3d794b6434d87caf5
+CI_PULL_REQUEST: false
+CI_REPO_NAME: musketyr/ci
+CI_NODE_TOTAL: 1
+CI_COMMITTER_EMAIL: vladimir@orany.cz
+CI_COMMITTER_USERNAME: musketyr
+CI_BRANCH: test-22
+CI_PR_NUMBER:
+CODESHIP: TRUE
+NVM_DIR: /home/rof/.nvm
+CI_BUILD_URL: https://app.codeship.com/projects/375188/builds/44885918
+CI: true
+CI_BUILD_NUMBER: 44885918
+CI_COMMITTER_NAME: Vladimir Orany
+CI_BUILD_ID: 44885918
+CI_NAME: codeship

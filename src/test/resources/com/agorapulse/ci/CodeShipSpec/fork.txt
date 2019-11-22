@@ -1,0 +1,3 @@
+Running for Forked repositories is not supported at the moment.
+
+See https://documentation.codeship.com/general/projects/getting-started/#testing-prs-from-forked-repositories
