@@ -4,7 +4,7 @@ class GithubActionsSpec extends CISpec {
 
     void 'master branch build'() {
         given:
-            loadEnv 'master.yml'
+            loadEnv 'branch.yml'
         expect:
             CI.getCurrent().present
 

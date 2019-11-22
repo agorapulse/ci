@@ -1,0 +1,89 @@
+CI_COMMIT_MESSAGE: Update README.ad
+CI_SERVER_VERSION_MAJOR: 12
+CI_PROJECT_URL: https://gitlab.com/vlad61/ci
+CI_COMMIT_REF_SLUG: test-25
+CI_MERGE_REQUEST_TARGET_BRANCH_SHA:
+GITLAB_FEATURES: audit_events,burndown_charts,code_owners,contribution_analytics,elastic_search,export_issues,group_bulk_edit,group_burndown_charts,group_webhooks,issuable_default_templates,issue_board_focus_mode,issue_weights,jenkins_integration,ldap_group_sync,member_lock,merge_request_approvers,multiple_issue_assignees,multiple_ldap_servers,multiple_merge_request_assignees,protected_refs_for_users,push_rules,related_issues,repository_mirrors,repository_size_limit,scoped_issue_board,usage_quotas,visual_review_app,wip_limits,admin_audit_log,auditor_user,batch_comments,blocking_merge_requests,board_assignee_lists,board_milestone_lists,ci_cd_projects,cluster_deployments,code_analytics,code_owner_approval_required,commit_committer_check,cross_project_pipelines,custom_file_templates,custom_file_templates_for_namespace,custom_project_templates,custom_prometheus_metrics,cycle_analytics_for_groups,db_load_balancing,default_project_deletion_protection,dependency_proxy,deploy_board,description_diffs,design_management,email_additional_text,extended_audit_events,external_authorization_service_api_management,feature_flags,file_locks,geo,github_project_service_integration,group_allowed_email_domains,group_project_templates,group_saml,issues_analytics,jira_dev_panel_integration,ldap_group_sync_filter,marking_project_for_deletion,merge_pipelines,merge_request_performance_metrics,merge_trains,metrics_reports,multiple_approval_rules,multiple_clusters,multiple_group_issue_boards,object_storage,operations_dashboard,packages,productivity_analytics,project_aliases,protected_environments,reject_unsigned_commits,required_ci_templates,scoped_labels,service_desk,smartcard_auth,type_of_work_analytics,unprotection_restrictions,ci_project_subscriptions,cluster_health,container_scanning,dast,dependency_list,dependency_scanning,epics,group_ip_restriction,incident_management,insights,license_management,pod_logs,prometheus_alerts,pseudonymizer,report_approver_rules,sast,security_dashboard,tracing,web_ide_terminal
+CI_PROJECT_PATH_SLUG: vlad61-ci
+CI_SERVER_VERSION_MINOR: 5
+CI_SERVER: yes
+CI_PROJECT_VISIBILITY: public
+CI_PROJECT_TITLE: ci
+CI_BUILD_NAME: test
+CI_PIPELINE_SOURCE: merge_request_event
+CI_RUNNER_ID: 44949
+CI_MERGE_REQUEST_TITLE: Update README.ad
+CI_MERGE_REQUEST_SOURCE_PROJECT_ID: 15477045
+CI_REGISTRY_USER: gitlab-ci-token
+CI_COMMIT_REF_NAME: test-25
+CI_NODE_TOTAL: 1
+CI_BUILD_REF_NAME: test-25
+CI_REGISTRY: registry.gitlab.com
+CI_PROJECT_REPOSITORY_LANGUAGES: java,groovy
+CI_PAGES_URL: https://vlad61.gitlab.io/ci
+CI_JOB_STAGE: test
+CI_MERGE_REQUEST_PROJECT_ID: 15477045
+CI_PAGES_DOMAIN: gitlab.io
+CI_MERGE_REQUEST_SOURCE_PROJECT_URL: https://gitlab.com/vlad61/ci
+CI_RUNNER_REVISION: b295d93b
+CI_CONCURRENT_ID: 86
+CI_BUILD_STAGE: test
+CI_MERGE_REQUEST_ID: 42948499
+CI_PROJECT_NAMESPACE: vlad61
+CI_PIPELINE_ID: 97797056
+CI_BUILD_TOKEN: 2c923e0f-44f3-4707-afd4-da707e9f72a3
+CI_RUNNER_EXECUTABLE_ARCH: linux/amd64
+CI_PROJECT_NAME: ci
+CI_BUILD_REF_SLUG: test-25
+CI: true
+CI_JOB_TOKEN: 9dedd54a-602f-424b-9b79-2d4b7c23d590
+CI_MERGE_REQUEST_IID: 4
+CI_SERVER_TLS_CA_FILE: /builds/vlad61/ci.tmp/CI_SERVER_TLS_CA_FILE
+CI_PROJECT_DIR: /builds/vlad61/ci
+CI_RUNNER_VERSION: 12.5.0-rc1
+CI_COMMIT_SHA: 1ad8a230301eab9eef16f3a857cbb84d4ea09643
+CI_SERVER_REVISION: 0c73e22c0ad
+CI_CONCURRENT_PROJECT_ID: 0
+CI_PIPELINE_URL: https://gitlab.com/vlad61/ci/pipelines/97797056
+CI_COMMIT_BEFORE_SHA: 0000000000000000000000000000000000000000
+CI_SERVER_NAME: GitLab
+CI_COMMIT_SHORT_SHA: 1ad8a230
+CI_JOB_URL: https://gitlab.com/vlad61/ci/-/jobs/358309430
+CI_BUILDS_DIR: /builds
+GITLAB_USER_NAME: Vladimir Orany
+CI_MERGE_REQUEST_PROJECT_PATH: vlad61/ci
+CI_RUNNER_TAGS: gce, east-c, shared, docker, linux, ruby, mysql, postgres, mongo, git-annex
+CI_SERVER_VERSION_PATCH: 0
+CI_MERGE_REQUEST_TARGET_BRANCH_NAME: master
+GITLAB_CI: true
+CI_REGISTRY_IMAGE: registry.gitlab.com/vlad61/ci
+CI_JOB_ID: 358309430
+CI_MERGE_REQUEST_EVENT_TYPE: detached
+GITLAB_USER_ID: 5007720
+CI_MERGE_REQUEST_SOURCE_BRANCH_SHA:
+CI_PIPELINE_IID: 8
+CI_SERVER_VERSION: 12.5.0-pre
+CI_MERGE_REQUEST_SOURCE_PROJECT_PATH: vlad61/ci
+CI_COMMIT_TITLE: Update README.ad
+CI_API_V4_URL: https://gitlab.com/api/v4
+GITLAB_USER_EMAIL: vlad@agorapulse.com
+CI_BUILD_REF: 1ad8a230301eab9eef16f3a857cbb84d4ea09643
+CI_PROJECT_ID: 15477045
+CI_MERGE_REQUEST_SOURCE_BRANCH_NAME: test-25
+CI_RUNNER_DESCRIPTION: shared-runners-manager-4.gitlab.com
+CI_REGISTRY_PASSWORD: 4837a8b1-eebf-4c10-aae7-40fa8ed7600e
+CI_PROJECT_PATH: vlad61/ci
+CI_COMMIT_REF_PROTECTED: false
+CI_DEFAULT_BRANCH: master
+CI_DISPOSABLE_ENVIRONMENT: true
+CI_RUNNER_SHORT_TOKEN: cde14d4f-091d-42ec-96b9-353deae272df
+CI_CONFIG_PATH: .gitlab-ci.yml
+CI_BUILD_BEFORE_SHA: 0000000000000000000000000000000000000000
+CI_COMMIT_DESCRIPTION:
+CI_MERGE_REQUEST_PROJECT_URL: https://gitlab.com/vlad61/ci
+CI_SERVER_HOST: gitlab.com
+CI_BUILD_ID: 358309430
+CI_JOB_NAME: test
+GITLAB_USER_LOGIN: vlad61
+CI_MERGE_REQUEST_REF_PATH: refs/merge-requests/4/head
+CI_REPOSITORY_URL: https://gitlab-ci-token:[MASKED]@gitlab.com/vlad61/ci.git

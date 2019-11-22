@@ -1,0 +1,12 @@
+GITHUB_WORKFLOW: Java CI
+GITHUB_BASE_REF: master
+GITHUB_WORKSPACE: /home/runner/work/ci/ci
+GITHUB_EVENT_NAME: pull_request
+GITHUB_ACTIONS: true
+GITHUB_EVENT_PATH: /home/runner/work/_temp/_github_workflow/event.json
+GITHUB_ACTION: run
+GITHUB_ACTOR: musketyr
+GITHUB_REF: refs/pull/3/merge
+GITHUB_REPOSITORY: agorapulse/ci
+GITHUB_SHA: 79a3e51bd20a2c640db8698cf50d1146ff0042e6
+GITHUB_HEAD_REF: master
