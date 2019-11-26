@@ -1,5 +1,7 @@
 package com.agorapulse.ci
 
+import com.agorapulse.ci.impl.GithubActions
+
 class GithubActionsSpec extends CISpec {
 
     void 'master branch build'() {
@@ -16,7 +18,7 @@ class GithubActionsSpec extends CISpec {
                 ci instanceof GithubActions
 
                 ci.commit == '8eee24aac46ace5cd156d351062dfce68e57e49e'
-                ci.repository == new Repository('agorapulse', 'ci')
+                ci.repository == new Repository(url, 'agorapulse', 'ci')
 
                 ci.branch.present
                 ci.branch.get() == 'master'

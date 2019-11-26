@@ -1,37 +1,37 @@
 package com.agorapulse.ci;
 
 import java.util.Objects;
-import java.util.Optional;
 
-public class Repository {
+public final class Repository {
 
-    public static Repository parse(String slug) {
+    public static Repository parseSlug(String slug) {
         String[] parts = slug.split("/");
         if (parts.length == 2) {
-            return new Repository(parts[0], parts[1]);
+            return new Repository(null, parts[0], parts[1]);
         }
-        return new Repository(null, slug);
+        return new Repository(null, null, slug);
     }
 
+    private final String url;
     private final String owner;
     private final String name;
 
-    public Repository(String owner, String name) {
+    public Repository(String url, String owner, String name) {
+        this.url = url;
         this.owner = owner;
         this.name = name;
     }
 
-    public Optional<String> getOwner() {
-        return Optional.ofNullable(owner);
+    public String getOwner() {
+        return owner;
     }
 
     public String getName() {
         return name;
     }
 
-    @Override
-    public String toString() {
-        return "Repository{owner='" + owner + "', name='" + name + "'}";
+    public String getUrl() {
+        return url;
     }
 
     @Override
@@ -39,12 +39,13 @@ public class Repository {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Repository that = (Repository) o;
-        return Objects.equals(owner, that.owner) &&
-                Objects.equals(name, that.name);
+        return Objects.equals(url, that.url) &&
+            Objects.equals(owner, that.owner) &&
+            Objects.equals(name, that.name);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(owner, name);
+        return Objects.hash(url, owner, name);
     }
 }

@@ -1,17 +1,24 @@
 package com.agorapulse.ci;
 
+import java.util.Map;
 import java.util.Optional;
+import java.util.ServiceLoader;
 
-class Factory {
+public interface Factory {
+
+    CI create(Map<String, String> env);
 
     static Optional<CI> create() {
-        // TODO: service providers
-        if ("true".equals(System.getenv("GITHUB_ACTIONS"))) {
-            return Optional.of(GithubActions.INSTANCE);
+        ServiceLoader<Factory> loader = ServiceLoader.load(Factory.class);
+
+        for (Factory f : loader) {
+            Map<String, String> envs = System.getenv();
+            CI ci = f.create(envs);
+            if (ci != null) {
+                return Optional.of(ci);
+            }
         }
-        if ("true".equals(System.getenv("TRAVIS"))) {
-            return Optional.of(TravisCI.INSTANCE);
-        }
+
         return Optional.empty();
     }
 
