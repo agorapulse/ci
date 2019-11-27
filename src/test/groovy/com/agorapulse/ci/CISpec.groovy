@@ -16,7 +16,7 @@ abstract class CISpec extends Specification {
         variableNames.each { env.set(it, null)}
     }
 
-    protected void loadEnv(String filename) {
+    protected void load(String filename) {
         Yaml yaml = new Yaml()
 
         InputStream stream = fixt.readStream(filename)

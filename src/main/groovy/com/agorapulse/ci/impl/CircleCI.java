@@ -4,7 +4,7 @@ import com.agorapulse.ci.*;
 
 import java.util.Map;
 
-public class CircleCIFactory implements Factory {
+public class CircleCI implements Factory {
 
     @Override
     public CI create(Map<String, String> env) {

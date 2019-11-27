@@ -1,13 +1,18 @@
 package com.agorapulse.ci.impl;
 
 import com.agorapulse.ci.CI;
+import com.agorapulse.ci.Factory;
 import com.agorapulse.ci.Repository;
 
+import java.util.Map;
 import java.util.Optional;
 
-public enum GithubActions {
+public class GithubActions implements Factory {
 
-    INSTANCE;
+    @Override
+    public CI create(Map<String, String> env) {
+        return null;
+    }
 
     public Repository getRepository() {
         return Repository.parseSlug(System.getenv("GITHUB_REPOSITORY"));

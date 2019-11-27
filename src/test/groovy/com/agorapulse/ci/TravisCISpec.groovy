@@ -7,7 +7,7 @@ class TravisCISpec extends CISpec {
     @Ignore
     void 'master branch build'() {
         given:
-            loadEnv 'branch.yml'
+            load 'branch.yml'
         expect:
             CI.getCurrent().present
 

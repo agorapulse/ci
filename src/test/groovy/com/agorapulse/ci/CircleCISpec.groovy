@@ -4,7 +4,7 @@ class CircleCISpec extends CISpec {
 
     void 'master branch build'() {
         given:
-            loadEnv 'branch.yml'
+            load 'branch.yml'
         expect:
             CI.getCurrent().present
 
@@ -31,7 +31,7 @@ class CircleCISpec extends CISpec {
 
     void 'tag build'() {
         given:
-            loadEnv 'tag.yml'
+            load 'tag.yml'
         expect:
             CI.getCurrent().present
 
@@ -58,7 +58,7 @@ class CircleCISpec extends CISpec {
 
     void 'pr build'() {
         given:
-            loadEnv 'pr.yml'
+            load 'pr.yml'
         expect:
             CI.getCurrent().present
 
@@ -94,7 +94,7 @@ class CircleCISpec extends CISpec {
 
     void 'pr fork build'() {
         given:
-            loadEnv 'fork.yml'
+            load 'fork.yml'
         expect:
             CI.getCurrent().present
 
